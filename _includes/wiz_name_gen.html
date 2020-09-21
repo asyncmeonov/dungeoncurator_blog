@@ -1,0 +1,34 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+    <h2 id=h2 style="text-align: center;">
+        <div id="rand_wiz"></div>
+    </h2>
+
+    <div style="text-align: center;">
+        <a id="reroll" href="#" onclick="GenerateName();" style="text-align: center;">Reroll name</a>
+    </div>
+    
+
+</body>
+<script>
+    var data = []
+    var titles = ["The Omnipotent", "The Clairvoyant", "The Wise", "The Patient", "The White", "The Gray"]
+
+    {% for drug in site.data.drug_vocab %}
+    data.push("{{drug.name}}");
+    {% endfor %}
+
+    GenerateName()
+
+    function GenerateName(){
+        var name = data[Math.floor(Math.random() * data.length)];
+        var title = titles[Math.floor(Math.random()* titles.length)];
+        document.getElementById('rand_wiz').innerHTML = name +" "+title;
+    }
+    
+</script>
+</html>
