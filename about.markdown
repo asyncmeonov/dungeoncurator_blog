@@ -1,18 +1,18 @@
 ---
-layout: page
+layout: custom-about
 title: About
+about-title: Hi, my name is Angel
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+and you've found my stream-of-consciousness blog about roleplaying games. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+{% comment %} TODO: If you would like to write an article about your roleplaying experience, see how to contribute to the blog in <<this tutorial>> {% endcomment %}
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+All my coding projects are open source and for now all of them are embedded in this website. If you're interested how a particular generator works, scout its post in the [repo](https://github.com/asyncmeonov/asyncmeonov.github.io).
 
+---
 
-[jekyll-organization]: https://github.com/jekyll
+This website is built with [jekyll](https://jekyllrb.com/) and runs the default [minima](https://github.com/jekyll/minima) theme with some modifications.
+
+Banner icon courtesy of [Smashicons](https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com/)
