@@ -3,10 +3,13 @@
 
   1. Head over to https://realfavicongenerator.net/ to add your own favicons.
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
-{% endcomment %}
 
-<link rel="icon" 
+
+  Uncomment this WHEN GITHUB PAGES CAN SUPPORT THE NEWEST VERSION OF MINIMA
+  for now we're overriding the head.html
+
+  <link rel="icon" 
       type="image/png" 
       href="{{ "/assets/img/favicon.png" | prepend: site.baseurl }}">
+{% endcomment %}
 
-<script>console.log("Test from custom-head")</script>

@@ -19,56 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Dungeon Curator
-author:
-  name: Angel
-  #email: your-email@domain.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Dungeon Curator is a blog dedicated to all topics consearning roleplaying games (RPG).
-  Everything from serious discussions about storytelling to not so serious programming projects.
-show_excerpts: false # set to true to show excerpts on the homepage
-
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
-
-  # generate social links in footer
-  social_links:
-  #  twitter: jekyllrb
-    github:  asyncmeonov
-    # devto: jekyll
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+#email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Dungeon Curator is a blog dedicated to all things RPG.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://dungeoncurator.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  asyncmeonov
 
 # Build settings
 theme: minima
