@@ -26,6 +26,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dungeoncurator.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  asyncmeonov
 
+#GA settings
+google_analytics: UA-178886644-1
+
 # Build settings
 theme: minima
 
