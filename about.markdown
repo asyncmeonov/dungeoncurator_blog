@@ -16,3 +16,5 @@ All my coding projects are open source and for now all of them are embedded in t
 This website is built with [jekyll](https://jekyllrb.com/) and runs the default [minima](https://github.com/jekyll/minima) theme with some modifications.
 
 Banner icon courtesy of [Smashicons](https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com/)
+
+I occasionally use the amazing artwork of [2-minute tabletop](https://2minutetabletop.com/) in my examples.
