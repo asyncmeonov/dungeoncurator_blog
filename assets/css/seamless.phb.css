@@ -1,0 +1,25 @@
+.page-content {
+    background-image: none;
+}
+
+.phb {
+    font-family:  -apple-system, BlinkMacSy\stemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 400;
+    width: auto;
+    height: auto;
+    column-count: 1;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+.phb::after{
+    background-image: none;
+}
+
+.phb h1 {
+    font-family:  -apple-system, BlinkMacSy\stemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    color: black;
+}

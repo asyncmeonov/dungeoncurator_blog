@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: seamless-phb-page
 title: "DM toolbox: A curated list of house rules"
 date: 2021-01-02 16:12 +0100
 categories: RPG DM
@@ -17,9 +17,16 @@ This list is going to get expanded as new ideas come to mind or the hivemind of 
 
 # Game speed up
 
->(Matt Mercer's) During combat, taking a potion takes a bonus action and feeding a potion someone unconscious is one action
 
->(Matt Colville's) Calculating ranges between two 3D points on different levels of height (water, aerial, any environment where something can be above or below you) is the greater number of the forward or vertical distances. 
+<div class='descriptive'>
+<h5>Matt Mercers' potion speed</h5>
+During combat, taking a potion takes a bonus action and feeding a potion someone unconscious is one action
+</div>
+
+<div class='descriptive'>
+<h5>Matt Colville's 3D distance calculation</h5>
+Calculating ranges between two 3D points on different levels of height (water, aerial, any environment where something can be above or below you) is the greater number of the forward or vertical distances. 
+</div>
 
 {:refdef: style="text-align: center;"}
 ![Fig1. diagram showing a player character and an enemy in water combat](/assets/img/3d_combat_example.png)
@@ -30,16 +37,33 @@ In this case, I would consider the Sahuagin being at 30ft as the horizontal dist
 
 # Pure fun
 
->Critical failure on skill checks. 
->
->Allows for narrative moments.
+<div class='descriptive'>
+<h5>Critical failure (1)</h5>
+Critical failure on skill checks. 
+</div>
 
->(if you use critical failures for skill checks) Rolls for acquiring any knowledge (History, Arcana, Perception, Religion, etc.) are done by the DM, behind the screen. 
->
->Allows for giving malicious information that can lead to dramatic/funny moments. Make sure you're good with your group before implementing this.
+<div class='descriptive'>
+<h5>Critical failure (2)</h5>
+<em style="color:grey;">You need to use "Critical failure (1)"</em><br>
+Rolls for acquiring any knowledge (History, Arcana, Perception, Religion, etc.) are done by the DM, behind the screen. 
+<br>
 
->If a player critical fails on an attack, ask another player to choose what the fumble outcome is. 
+<br>
+<em>Allows for giving malicious information that can lead to dramatic/funny moments. Make sure you're good with your group before implementing this.</em>
+</div>
 
->Rolling the same number twice when rolling with advantage is considered a critical success. Rolling double ones is still  critical failure.
+<div class='descriptive'>
+<h5>Critical failure (3)</h5>
+<em style="color:grey;">You need to use "Critical failure (1)"</em><br>
+If a player critical fails on an attack, ask another player to choose what the fumble outcome is.
+</div>
+ 
+<div class='descriptive'>
+<h5>Action: Assassination</h5>
+<strong>Strength check (DC dependent on the toughness of the foe)</strong> to instantly kill enemies that are same size or smaller which cannot defend in any way (sleeping deeply, unconscious, paralized).
+</div>
 
->Strength check (DC dependent on the toughness of the foe) to instantly kill enemies that are same size or smaller which cannot defend in any way (sleeping deeply, unconscious, paralized).
+<div class='descriptive'>
+<h5>Advantage critical</h5>
+Rolling the same number twice when rolling with advantage is considered a critical success. Rolling double ones is still  critical failure.
+</div>
