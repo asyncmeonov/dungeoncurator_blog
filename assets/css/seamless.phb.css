@@ -9,17 +9,27 @@
     width: auto;
     height: auto;
     column-count: 1;
-    padding-right: 30px;
-    padding-left: 30px;
-
+    padding: 0%;
 }
 
 .phb::after{
     background-image: none;
 }
 
-.phb h1 {
+.phb h1, .post-header h1 {
     font-family:  -apple-system, BlinkMacSy\stemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 400;
     color: black;
+}
+
+.page-content {
+    padding: 30px 0;;
+}
+
+.post-meta {
+    font-family:  -apple-system, BlinkMacSy\stemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   
+}
+.post-title {
+    margin-bottom: 15px;
 }

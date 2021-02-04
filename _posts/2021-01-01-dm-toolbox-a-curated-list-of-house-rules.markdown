@@ -1,6 +1,6 @@
 ---
 layout: seamless-phb-page
-title: "DM toolbox: A curated list of house rules"
+title: "DM toolbox: A curated (and incomplete) list of house rules"
 date: 2021-01-02 16:12 +0100
 categories: RPG DM
 author: Angel 
@@ -54,7 +54,6 @@ Rolls for acquiring any knowledge (History, Arcana, Perception, Religion, etc.) 
 
 <div class='descriptive'>
 <h5>Critical failure (3)</h5>
-<em style="color:grey;">You need to use "Critical failure (1)"</em><br>
 If a player critical fails on an attack, ask another player to choose what the fumble outcome is.
 </div>
  
