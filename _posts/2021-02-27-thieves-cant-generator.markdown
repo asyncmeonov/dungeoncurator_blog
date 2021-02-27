@@ -12,7 +12,7 @@ author: Angel
     }
 
     #input {
-        font-size: 1.15em;
+        font-size: 1.1em;
         width: 100%;
         border: 0px solid #000000;
         border-bottom-width: 1px;
@@ -49,10 +49,10 @@ author: Angel
     #gen-background {
         border-radius: 10px 30px;
         padding: 1em;
-        margin: 2em 0;
-            padding: 4em;
-            box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
-            background: #fffef0;
+        margin: 1em 0;
+        padding: 2em;
+        box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+        background: #fffef0;
     }
     
 </style>
@@ -64,12 +64,12 @@ author: Angel
 
 <form action="#" onsubmit="return false">
     <div>
-        <input type="text" id="input" value="Lets rob the ruch guy. The guards at the market are careless. They won't suspect a thing!" maxlength="89">
+        <input type="text" id="input" value="Lets rob the ruch guy. The guards at the market are careless. He won't suspect a thing!" maxlength="89">
     </div>
 </form>
 
  {: #result}
-> Epithets swab the kitsch identify. The shards at the star cut are airless.They won't circumspect a wring!
+> Epithets swab the kitsch identify. The shards at the star cut are airless. He won't circumspect a wring!
 
  {: #tooltip}
 >
