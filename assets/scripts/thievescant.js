@@ -24,11 +24,7 @@ function convertToThievesCant(input) {
             }
         }
 
-        console.log(out);
-        console.log(Promise.all(out));
-
         Promise.all(out).then(data => {
-            console.log(data);
             let content = ""
             data.forEach((arrValue, i) => {
                 if (arrValue.length === 1) {

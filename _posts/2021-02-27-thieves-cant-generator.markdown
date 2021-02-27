@@ -49,7 +49,10 @@ author: Angel
     #gen-background {
         border-radius: 10px 30px;
         padding: 1em;
-        background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=FFFBF4&noise=5c5c5c&density=13&opacity=10);
+        margin: 2em 0;
+            padding: 4em;
+            box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+            background: #fffef0;
     }
     
 </style>
