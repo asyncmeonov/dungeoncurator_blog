@@ -66,3 +66,9 @@ If a player critical fails on an attack, ask another player to choose what the f
 <h5>Advantage critical</h5>
 Rolling the same number twice when rolling with advantage is considered a critical success. Rolling double ones is still  critical failure.
 </div>
+
+# Hardcore mode
+<div class='descriptive'>
+<h5>Exhaustion after stabilising</h5>
+After you've fallen below 0hp and have been stabilised, you suffer one level of exhaustion.
+</div>
